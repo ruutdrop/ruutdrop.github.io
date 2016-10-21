@@ -20,7 +20,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "http://ruutdrop-api.appspot.com/v1/contactus",
                 type: "POST",
                 data: {
                     name: name,

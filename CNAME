@@ -1,1 +1,4 @@
-ruutdrop.com
+echo "www.ruutdrop.com" > CNAME  
+git add -A  
+git commit -m “Added CNAME file.”  
+git push origin master  

@@ -22,7 +22,6 @@ $(function() {
             }
             $.ajax({
                 url: "https://ruutdrop-api.appspot.com/v1/contactus",
-                url: "http://ruutdrop-api.appspot.com/v1/contactus",
                 type: "POST",
                 data: {
                     name: name,

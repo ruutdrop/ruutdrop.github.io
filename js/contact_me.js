@@ -21,6 +21,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
+                url: "https://ruutdrop-api.appspot.com/v1/contactus",
                 url: "http://ruutdrop-api.appspot.com/v1/contactus",
                 type: "POST",
                 data: {
